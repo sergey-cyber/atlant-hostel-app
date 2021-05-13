@@ -1,0 +1,46 @@
+.totalmenu{
+    display: none;
+    width: 400px;
+    height: 100vh;
+    background: cornsilk;   
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 2;
+}
+
+.totalmenu.active{
+    display: flex;
+}
+
+.closeMenuImg{
+    width: 30px;
+    height: 30px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+    cursor: pointer;
+}
+
+.menuItem{
+    margin: 20px 0;
+    cursor: pointer;
+    font-family: 'Rockwell Condensed';
+    font-weight: 700;
+    font-size: 25px;
+    transition: .3s;
+}
+
+.menuItem:hover{
+    text-decoration: underline;
+    color: crimson;
+}
+
+@media (max-width: 500px) {
+    .totalmenu{
+        width: 100%;
+    }
+}

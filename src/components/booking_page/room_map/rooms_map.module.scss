@@ -1,0 +1,180 @@
+
+.roomsMap{
+    width: 100%;
+    height: auto;
+    min-height: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    img{
+        width: 100%;
+        height: auto;
+    }
+}
+
+.roomsMapWrapper{
+    position: relative;
+    width: 30%;
+    height: auto;
+}
+
+/*Кровати*/
+
+.smallBed{
+    display: flex;
+    background: url('../../../public/images/booking_page/1bed.jpg');
+    background-size: cover;
+    color: #fff;
+    width: 80px;
+    height: 60px;
+    position: relative;
+    z-index: 11;
+    a, span{
+        width: 50%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        border: solid 1px gray;
+        font-weight: 700;
+        font-size: 20px;
+        cursor: pointer;
+        transition: .3s;
+        text-decoration: none;
+        color: #fff;
+        &:hover{
+            background-color: rgba(0, 0, 0, .5);
+        }
+    }
+    span{
+        background: rgb(255, 0, 0);
+        &:hover{
+            background-color: rgb(255, 115, 0);
+        }
+    }
+}
+
+.occupatedInfo{
+    font-size: 0.8em;   
+    div{
+        div{
+            font-size: 0.8em;   
+        }
+    }
+}
+
+#bed12{
+    position: absolute;
+    right: 8%;
+    top: 15%;
+    a{
+        transform: rotate(0deg);
+    }
+}
+
+#bed34{
+    position: absolute;
+    right: 8%;
+    top: 35%;
+    a{
+        transform: rotate(0deg);
+    }
+}
+
+#bed56{
+    position: absolute;
+    left: 8%;
+    top: 50%;
+    transform: scale(-1,1);
+    a, span{
+        transform: scale(-1,1);
+    }
+}
+
+#bed78{
+    position: absolute;
+    left: 8%;
+    top: 75%;
+    transform: scale(-1,1);
+    a, span{
+        transform: scale(-1,1);
+    }
+}
+
+#bed9{
+    position: absolute;
+    top: 18%;
+    left: 8%;
+    width: 80px;
+    height: 70px;
+    background: url('../../../public/images/booking_page/bed.png');
+    background-size: cover;
+    cursor: pointer;
+    font-size: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    transition: .2s;
+    z-index: 0;
+    a, span{
+        width: 100%;
+        height: 100%;
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        font-weight: 700;
+        font-size: 20px;
+        cursor: pointer;
+        transition: .3s;
+        text-decoration: none;
+        color: #fff;
+        &:hover{
+            background-color: rgba(0, 0, 0, .5);
+        }
+    }
+    span{
+        background: red;
+        &:hover{
+            background-color: rgb(255, 115, 0);
+        }
+    }
+}
+
+@media (max-width: 1200px) {
+    .smallBed{
+        width: 65px;
+        height: 45px;
+    }
+}
+
+@media (max-width: 1000px) {
+    .smallBed{
+        width: 60px;
+        height: 40px;
+    }
+    #bed9{
+        width: 65px;
+        height: 55px;
+    }
+}
+
+@media (max-width: 800px) {
+    .roomsMapWrapper{
+        width: 40%;
+    }
+}
+
+@media (max-width: 500px) {
+    .roomsMapWrapper{
+        width: 100%;
+    }
+    .smallBed{
+        width: 75px;
+        height: 55px;
+    }
+    #bed9{
+        width: 70px;
+        height: 60px;
+    }
+}

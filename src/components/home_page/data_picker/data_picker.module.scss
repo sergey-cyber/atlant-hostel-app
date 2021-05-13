@@ -1,0 +1,23 @@
+.datePicker{
+    position: absolute;
+    width: 100%;
+    top: 10%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.bookingButton{
+    padding: 6px 15px;
+    background-color: #000;
+    color: #fff;
+    text-decoration: none;
+    height: 100%;
+}
+
+.denyBooking{
+    color: brown;
+    font-weight: 500;
+    font-style: italic;
+}

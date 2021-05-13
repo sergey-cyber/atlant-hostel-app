@@ -1,0 +1,44 @@
+h1,h2,h3,h4{
+    margin: 0;
+}
+
+.roomDetails{
+    width: 100%;
+    height: 100vh;
+    background-color: #fff;
+}
+
+.roomDetails h1{
+    padding-top: 50px;
+}
+
+/*Caurosel*/
+
+.cauruselItem{
+    width: 40%;
+    margin-top: 20px;
+}
+
+.proceedToCheckout{
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 20px auto;
+}
+
+.proceedToCheckout button{
+    border: none;
+    color: #fff;
+    background-color: #000;
+    cursor: pointer;
+    padding: 5px 10px;
+}
+
+@media (max-width: 500px) {
+    .cauruselItem{
+        width: 100%;
+        height: auto;
+    }
+}
+

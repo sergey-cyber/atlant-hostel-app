@@ -1,0 +1,12 @@
+.bookingPage h1{
+    margin-top: 7%;
+    text-align: center;
+    width: 100%;
+    font-family: 'Rockwell Condensed';
+}
+
+@media (max-width: 500px) {
+    .bookingPage h1{
+        margin-top: 17%;
+    }
+}
