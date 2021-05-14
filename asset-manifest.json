@@ -1,0 +1,42 @@
+{
+  "files": {
+    "main.css": "/atlant-hostel-app/static/css/main.1042099b.chunk.css",
+    "main.js": "/atlant-hostel-app/static/js/main.5dbcb49d.chunk.js",
+    "main.js.map": "/atlant-hostel-app/static/js/main.5dbcb49d.chunk.js.map",
+    "runtime-main.js": "/atlant-hostel-app/static/js/runtime-main.ab4d8f52.js",
+    "runtime-main.js.map": "/atlant-hostel-app/static/js/runtime-main.ab4d8f52.js.map",
+    "static/css/2.5b16853f.chunk.css": "/atlant-hostel-app/static/css/2.5b16853f.chunk.css",
+    "static/js/2.ece9351d.chunk.js": "/atlant-hostel-app/static/js/2.ece9351d.chunk.js",
+    "static/js/2.ece9351d.chunk.js.map": "/atlant-hostel-app/static/js/2.ece9351d.chunk.js.map",
+    "static/js/3.99ce3e02.chunk.js": "/atlant-hostel-app/static/js/3.99ce3e02.chunk.js",
+    "static/js/3.99ce3e02.chunk.js.map": "/atlant-hostel-app/static/js/3.99ce3e02.chunk.js.map",
+    "index.html": "/atlant-hostel-app/index.html",
+    "static/css/2.5b16853f.chunk.css.map": "/atlant-hostel-app/static/css/2.5b16853f.chunk.css.map",
+    "static/css/main.1042099b.chunk.css.map": "/atlant-hostel-app/static/css/main.1042099b.chunk.css.map",
+    "static/js/2.ece9351d.chunk.js.LICENSE.txt": "/atlant-hostel-app/static/js/2.ece9351d.chunk.js.LICENSE.txt",
+    "static/media/1234.2533f618.jpg": "/atlant-hostel-app/static/media/1234.2533f618.jpg",
+    "static/media/1234_1.f927ad2c.jpg": "/atlant-hostel-app/static/media/1234_1.f927ad2c.jpg",
+    "static/media/rooms_map.module.scss": "/atlant-hostel-app/static/media/bed.4240742f.png",
+    "static/media/5678.789796c3.jpg": "/atlant-hostel-app/static/media/5678.789796c3.jpg",
+    "static/media/5678_1.e7fae1ee.jpg": "/atlant-hostel-app/static/media/5678_1.e7fae1ee.jpg",
+    "static/media/9.d8beba47.jpg": "/atlant-hostel-app/static/media/9.d8beba47.jpg",
+    "static/media/9.e05cb832.jpg": "/atlant-hostel-app/static/media/9.e05cb832.jpg",
+    "static/media/9_1.b5d3bcef.jpg": "/atlant-hostel-app/static/media/9_1.b5d3bcef.jpg",
+    "static/media/atlant.f79e90aa.png": "/atlant-hostel-app/static/media/atlant.f79e90aa.png",
+    "static/media/burger_menu.976b5194.png": "/atlant-hostel-app/static/media/burger_menu.976b5194.png",
+    "static/media/fly.a02bb61e.gif": "/atlant-hostel-app/static/media/fly.a02bb61e.gif",
+    "static/media/hole.00cf98db.jpg": "/atlant-hostel-app/static/media/hole.00cf98db.jpg",
+    "static/media/insta.838597ee.png": "/atlant-hostel-app/static/media/insta.838597ee.png",
+    "static/media/login_icon.896173e4.png": "/atlant-hostel-app/static/media/login_icon.896173e4.png",
+    "static/media/rooms_map.f573420e.jpg": "/atlant-hostel-app/static/media/rooms_map.f573420e.jpg",
+    "static/media/vk.83a71c2b.webp": "/atlant-hostel-app/static/media/vk.83a71c2b.webp",
+    "static/media/youtube.e83c6f38.png": "/atlant-hostel-app/static/media/youtube.e83c6f38.png"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.ab4d8f52.js",
+    "static/css/2.5b16853f.chunk.css",
+    "static/js/2.ece9351d.chunk.js",
+    "static/css/main.1042099b.chunk.css",
+    "static/js/main.5dbcb49d.chunk.js"
+  ]
+}
