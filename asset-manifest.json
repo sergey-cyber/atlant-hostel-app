@@ -1,8 +1,8 @@
 {
   "files": {
     "main.css": "/atlant-hostel-app/static/css/main.1042099b.chunk.css",
-    "main.js": "/atlant-hostel-app/static/js/main.5dbcb49d.chunk.js",
-    "main.js.map": "/atlant-hostel-app/static/js/main.5dbcb49d.chunk.js.map",
+    "main.js": "/atlant-hostel-app/static/js/main.37bba340.chunk.js",
+    "main.js.map": "/atlant-hostel-app/static/js/main.37bba340.chunk.js.map",
     "runtime-main.js": "/atlant-hostel-app/static/js/runtime-main.ab4d8f52.js",
     "runtime-main.js.map": "/atlant-hostel-app/static/js/runtime-main.ab4d8f52.js.map",
     "static/css/2.5b16853f.chunk.css": "/atlant-hostel-app/static/css/2.5b16853f.chunk.css",
@@ -37,6 +37,6 @@
     "static/css/2.5b16853f.chunk.css",
     "static/js/2.ece9351d.chunk.js",
     "static/css/main.1042099b.chunk.css",
-    "static/js/main.5dbcb49d.chunk.js"
+    "static/js/main.37bba340.chunk.js"
   ]
 }
