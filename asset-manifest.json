@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.css": "/atlant-hostel-app/static/css/main.fd599083.chunk.css",
-    "main.js": "/atlant-hostel-app/static/js/main.9ceb699d.chunk.js",
-    "main.js.map": "/atlant-hostel-app/static/js/main.9ceb699d.chunk.js.map",
-    "runtime-main.js": "/atlant-hostel-app/static/js/runtime-main.0598b974.js",
-    "runtime-main.js.map": "/atlant-hostel-app/static/js/runtime-main.0598b974.js.map",
+    "main.css": "/atlant-hostel-app/static/css/main.34d634a2.chunk.css",
+    "main.js": "/atlant-hostel-app/static/js/main.ac618a89.chunk.js",
+    "main.js.map": "/atlant-hostel-app/static/js/main.ac618a89.chunk.js.map",
+    "runtime-main.js": "/atlant-hostel-app/static/js/runtime-main.b05169c4.js",
+    "runtime-main.js.map": "/atlant-hostel-app/static/js/runtime-main.b05169c4.js.map",
     "static/css/2.5b16853f.chunk.css": "/atlant-hostel-app/static/css/2.5b16853f.chunk.css",
-    "static/js/2.b6bef5db.chunk.js": "/atlant-hostel-app/static/js/2.b6bef5db.chunk.js",
-    "static/js/2.b6bef5db.chunk.js.map": "/atlant-hostel-app/static/js/2.b6bef5db.chunk.js.map",
-    "static/js/3.b3cc0c1c.chunk.js": "/atlant-hostel-app/static/js/3.b3cc0c1c.chunk.js",
-    "static/js/3.b3cc0c1c.chunk.js.map": "/atlant-hostel-app/static/js/3.b3cc0c1c.chunk.js.map",
+    "static/js/2.e056a8b3.chunk.js": "/atlant-hostel-app/static/js/2.e056a8b3.chunk.js",
+    "static/js/2.e056a8b3.chunk.js.map": "/atlant-hostel-app/static/js/2.e056a8b3.chunk.js.map",
+    "static/js/3.c6c246b4.chunk.js": "/atlant-hostel-app/static/js/3.c6c246b4.chunk.js",
+    "static/js/3.c6c246b4.chunk.js.map": "/atlant-hostel-app/static/js/3.c6c246b4.chunk.js.map",
     "index.html": "/atlant-hostel-app/index.html",
     "static/css/2.5b16853f.chunk.css.map": "/atlant-hostel-app/static/css/2.5b16853f.chunk.css.map",
-    "static/css/main.fd599083.chunk.css.map": "/atlant-hostel-app/static/css/main.fd599083.chunk.css.map",
-    "static/js/2.b6bef5db.chunk.js.LICENSE.txt": "/atlant-hostel-app/static/js/2.b6bef5db.chunk.js.LICENSE.txt",
+    "static/css/main.34d634a2.chunk.css.map": "/atlant-hostel-app/static/css/main.34d634a2.chunk.css.map",
+    "static/js/2.e056a8b3.chunk.js.LICENSE.txt": "/atlant-hostel-app/static/js/2.e056a8b3.chunk.js.LICENSE.txt",
     "static/media/1234.2533f618.jpg": "/atlant-hostel-app/static/media/1234.2533f618.jpg",
     "static/media/1234_1.f927ad2c.jpg": "/atlant-hostel-app/static/media/1234_1.f927ad2c.jpg",
     "static/media/rooms_map.module.scss": "/atlant-hostel-app/static/media/bed.4240742f.png",
@@ -29,10 +29,10 @@
     "static/media/rooms_map.f573420e.jpg": "/atlant-hostel-app/static/media/rooms_map.f573420e.jpg"
   },
   "entrypoints": [
-    "static/js/runtime-main.0598b974.js",
+    "static/js/runtime-main.b05169c4.js",
     "static/css/2.5b16853f.chunk.css",
-    "static/js/2.b6bef5db.chunk.js",
-    "static/css/main.fd599083.chunk.css",
-    "static/js/main.9ceb699d.chunk.js"
+    "static/js/2.e056a8b3.chunk.js",
+    "static/css/main.34d634a2.chunk.css",
+    "static/js/main.ac618a89.chunk.js"
   ]
 }
