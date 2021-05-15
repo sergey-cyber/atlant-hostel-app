@@ -34,7 +34,7 @@ const RoomsMap = (props:any) => {
                                 })} </span>
                                 return (
                                     <Tooltip placement="topRight" title={text} key={place.id} color='black'
-                                        overlayClassName={style.occupatedInfo} > {/* Класс всплывашки */}
+                                        overlayClassName={style.occupatedInfo} trigger={['hover', 'click']} > {/* Класс всплывашки */}
                                         { place.id }
                                     </Tooltip>
                                 )

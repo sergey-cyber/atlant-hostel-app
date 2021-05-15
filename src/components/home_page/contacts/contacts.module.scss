@@ -1,5 +1,6 @@
+
 .contacts{
-    padding: 0 0 50px 0;
+    padding: 10px 0 50px 0;
 }
 
 .socialContacts{
@@ -7,10 +8,22 @@
     justify-content: center;
     align-items: center;
     width: 100%;
+    a{
+        text-decoration: none;
+        margin: 10px;
+        padding: 7px;
+        border-radius: 5px;
+        transition: 0.3s;
+        &:hover{
+            color: #fff;
+            transform: scale(1.1);
+        }   
+    }
 }
 
-.socialContacts img{
-    width: 50px;
-    height: 50px;
-    margin: 0 5px;
-}
+.youtube{background: #c4302b; color: #fff;}
+.instagram {background: #3f729b; color: #fff;}
+.vk {background: #5d84ae; color: #fff;}
+.whatsapp {background: #50b154; color: #fff;}
+.telegram {background: #249bd7;  color: #fff;}
+.phone {background: #50b154; color: #fff;}

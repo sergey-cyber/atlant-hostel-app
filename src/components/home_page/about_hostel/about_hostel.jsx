@@ -11,6 +11,7 @@ const AboutHostel = (props) => {
             <h1>О Хостеле</h1>
             <CreateCarousel styleClassName={style.slideImg} src={[img1, img2]} />
             <div className={style.aboutHostelDescription}>
+                <h1>Любите путешествовать?</h1>
                 <p>Мы рады помочь Вам, мы единственный Хостел в области, который предоставляет бесплатные услуги трансфера до хостела и обратно.
                 С нами Вам не нужно думать о такси или другом средстве передвижения. </p>
                 <Link to="toHeaderScroll" spy={true} smooth={true} duration={500}
