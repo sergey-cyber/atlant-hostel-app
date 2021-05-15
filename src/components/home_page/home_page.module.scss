@@ -7,9 +7,18 @@
         h1{
             font-size: 40px;
         }
-        p{
+        a{
             font-size: 20px;
             margin: 0;
+            text-decoration: none;
+            color: #000;
+            .phone {
+                background: #50b154; 
+                color: #fff;
+                padding: 3px;
+                margin-right: 10px;
+                border-radius: 5px;
+            }
         }
         position: absolute;
         bottom: 3%;      

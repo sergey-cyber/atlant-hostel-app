@@ -4,6 +4,7 @@ import img1 from '../../../public/images/home_page/9.jpg';
 import img2 from '../../../public/images/home_page/hole.jpg';
 import CreateCarousel from '../../general/Create_carousel';
 import {Link} from 'react-scroll';
+import { ContactsIcons } from '../contacts/contacts';
 
 const AboutHostel = (props) => {
     return (
@@ -18,7 +19,10 @@ const AboutHostel = (props) => {
                         className={style.eartContentBtn} >
                     Забронировать
                 </Link>
-                <p>Есть вопросы? Звоните:<br></br><b>8(999) 999 99 99</b></p>
+                <p>Есть вопросы? Звоните или пишите нам в соц. сети:<br></br>
+                    <ContactsIcons phone='phone' whatsapp='whatsapp' telegram='telegram'
+                        instagram='instagram' vk='vk' />
+                </p>
             </div>
         </section>
     )
