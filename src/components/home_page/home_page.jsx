@@ -9,7 +9,6 @@ import GoogleMap from './google_map/google_map';
 import ReviewsAboutUsContainer from './reviews_about_us/reviews_about_us_Container';
 import ReviewsFormContainer from './reviews_form/reviews_form_Container';
 import Header from './header/header';
-import Earth from './earth/earth';
 
 const HomePage = () => {
 
@@ -17,14 +16,17 @@ const HomePage = () => {
         <>
         <Header />
         <div className={style.start_page} id='toHeaderScroll' > {/*  Стартовый экран приложения */}
-            <h1>Atlant Hostel</h1>
+            <div className={style.start_pageTitle}>
+                <h1>Atlant Hostel</h1>
+                <p>Tel.: 8(999) 999 99 99</p>
+            </div>
+            
             <div className={style.homePageImg}>
                 <img alt='atlant' src={atlantImg} className={style.atlant} />
             </div>
             <DataPicker />
         </div>
         <AboutHostel />
-        <Earth />
         <ReviewsAboutUsContainer />
         <ReviewsFormContainer />
         <GoogleMap />

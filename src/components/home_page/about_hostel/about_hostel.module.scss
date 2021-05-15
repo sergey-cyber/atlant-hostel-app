@@ -1,0 +1,33 @@
+$contentWidth: 60%;
+
+.slideImg{
+    width: $contentWidth;
+    height: auto;
+}
+
+.aboutHostelDescription{
+    width: $contentWidth;   
+    margin: 20px auto;
+    p{
+        margin: 10px 0;
+    }
+    a{
+        display: inline-block;
+        text-decoration: none;
+        padding: 10px 20px;
+        background-color: blueviolet;
+        color: #fff;
+        transition: .3s;
+        &:hover{
+            border-radius: 10px;
+            color:cornsilk
+        }
+    }
+}
+
+@media (max-width: 500px) {
+    .slideImg, .aboutHostelDescription{
+        width: 100%;
+        height: auto;
+    }
+}
