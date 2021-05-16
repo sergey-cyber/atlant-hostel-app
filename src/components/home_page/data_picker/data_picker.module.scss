@@ -4,20 +4,27 @@
     top: 10%;
     display: flex;
     justify-content: center;
-    align-items: center;
-    flex-direction: column;
+    flex-wrap: wrap;
+    div{
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: no-wrap;
+        padding: 0 5px;
+    }  
+    .bookingButton{
+        display: inline-block;
+        padding: 8px 15px;
+        background-color:#000;
+        color: #fff;
+        text-decoration: none;
+        height: 100%;
+        border-radius: 5px;
+    }
 }
 
-.bookingButton{
-    padding: 6px 15px;
-    background-color: #000;
-    color: #fff;
-    text-decoration: none;
-    height: 100%;
-}
-
-.denyBooking{
-    color: brown;
-    font-weight: 500;
-    font-style: italic;
+@media(max-width:700px) {
+    .bookingButton{
+        margin: 5px 0;
+    }
 }

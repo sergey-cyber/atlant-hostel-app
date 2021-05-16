@@ -10,6 +10,7 @@ import { Redirect } from 'react-router';
 import BookingDiscription from './booking_discription/booking_discription';
 import { dateConverter } from '../../helpers/dateConverters';
 import { NavLink } from 'react-router-dom';
+import ContactsViget from '../general/contacts_vidget/contact_viget';
 
 const BookingPage = (props) => {
 
@@ -33,6 +34,7 @@ const BookingPage = (props) => {
                 <RoomsMap preloader={preloader} />
                 <BookingDiscription />
                 <RoomsDiscription />
+                <ContactsViget />
             </div>
         )
     } else {

@@ -10,6 +10,7 @@ import ReviewsFormContainer from './reviews_form/reviews_form_Container';
 import Header from './header/header';
 import { FontAwesomeIcon } from '@fortawesome/react-fontawesome'
 import { faPhone } from "@fortawesome/free-solid-svg-icons";
+import ContactsViget from '../general/contacts_vidget/contact_viget';
 
 const HomePage = () => {
 
@@ -37,6 +38,7 @@ const HomePage = () => {
         <ReviewsFormContainer />
         <GoogleMap />
         <Contacts />
+        <ContactsViget />
         </>
     )
 }

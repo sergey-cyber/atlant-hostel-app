@@ -49,7 +49,7 @@ const ReviewsAboutUs = (props) => {
                 
             </div>
             <div className={style.reviewsPaginator} >
-                <Pagination defaultCurrent={1} total={props.totalReviewsCount}
+                <Pagination total={props.totalReviewsCount}
                     pageSize={props.revPartSize} showSizeChanger={false} onChange={onChangePaginator} />
             </div>
             <button 

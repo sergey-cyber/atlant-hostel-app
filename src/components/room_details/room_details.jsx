@@ -9,6 +9,7 @@ import PaymantSuccessful from './payment_successful/payment_successful';
 import { dateConverter } from '../../helpers/dateConverters';
 import Preloader from '../general/preloader/preloader';
 import { calcPrice } from '../../helpers/calcPrice';
+import ContactsViget from '../general/contacts_vidget/contact_viget';
 
 const RoomDetails = (props) => {
 
@@ -48,6 +49,7 @@ const RoomDetails = (props) => {
                      'Перейти к оплате'}    
                 </button>
             </div>  
+            <ContactsViget />
         </section>
         <PaymantSuccessful 
             paymentIsSuccessful={ props.paymentIsSuccessful }

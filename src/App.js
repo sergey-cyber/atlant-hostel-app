@@ -3,6 +3,7 @@ import './App.css';
 import BookingPage from './components/booking_page/booking_page';
 import HomePageContainer from './components/home_page/home_page_Container';
 import RoomDetails from './components/room_details/room_details';
+import 'antd/dist/antd.css'; //Ant Design styles
 
 function App() {
   return (
@@ -26,3 +27,4 @@ function App() {
 }
 
 export default App;
+
