@@ -1,7 +1,6 @@
 import { homePageDataAPI } from "../api/api";
 
 const SET_REVIEWS_FORM = 'atlant-hostel/reviewsData/SET_REVIEWS_FORM'; 
-const POST_NEW_REVIEW_IN_STATE = 'atlant-hostel/reviewsData/POST_NEW_REVIEW_IN_STATE'; 
 const GET_ALL_REVIEWS_IN_STATE = 'atlant-hostel/reviewsData/GET_ALL_REVIEWS_IN_STATE'; 
 
 type review = {

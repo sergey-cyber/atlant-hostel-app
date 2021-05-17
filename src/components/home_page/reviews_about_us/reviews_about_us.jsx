@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { useEffect } from 'react';
 import { Rate } from 'antd';
 import style from './reviews_about_us.module.scss';
 import Preloader from '../../general/preloader/preloader';
@@ -9,6 +9,10 @@ const ReviewsAboutUs = (props) => {
     const setShowReviewsForm = () => {
         props.setReviewsForm(true)
     }
+
+    useEffect(() => {
+        console.log('reviews onload')
+    }, [])
 
     const onChangePaginator = (currentPart, partSize) => {
         //Отправляем запрос за частью отзывов при нажатии на пагинатор(текущая страница и размер страницы приходит автоматом из пагинатора)
@@ -49,7 +53,7 @@ const ReviewsAboutUs = (props) => {
                 
             </div>
             <div className={style.reviewsPaginator} >
-                <Pagination total={props.totalReviewsCount}
+                <Pagination total={props.totalReviewsCount} defaultCurrent={1}
                     pageSize={props.revPartSize} showSizeChanger={false} onChange={onChangePaginator} />
             </div>
             <button 

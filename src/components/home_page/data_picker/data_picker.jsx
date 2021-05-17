@@ -41,7 +41,7 @@ const DataPicker = (props) => {
           {/* For Start value */}
           <DateTimePicker
             ampm={false} label="Дата заезда" value={startValue} minDateTime={new Date()}
-            inputFormat="dd/MM/yyyy hh:mm"
+            inputFormat="dd/MM/yyyy HH:mm"
             renderInput={(props) => <TextField {...props} error={startIsValue} size='small' />}
             onChange={(newValue) => {
               setStartValue(newValue);
@@ -52,7 +52,7 @@ const DataPicker = (props) => {
           <DateTimePicker 
             ampm={false} label={"Дата выезда"} value={endValue} 
             minDateTime={startValue ? new Date(startValue) : new Date()}
-            inputFormat="dd/MM/yyyy hh:mm" disabled={!startValue}
+            inputFormat="dd/MM/yyyy HH:mm" disabled={!startValue}
             renderInput={(props) => {
               return <TextField {...props} error={endisValue} size='small' />
             }}

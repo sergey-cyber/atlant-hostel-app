@@ -37,7 +37,10 @@
 }
 
 .youtube{background: #c4302b; color: #fff;}
-.instagram {background: #3f729b; color: #fff;}
+.instagram {
+    color: #fff;
+    background: radial-gradient(circle at 30% 107%, #fdf497 0%, #fdf497 5%, #fd5949 45%, #d6249f 60%, #285AEB 90%);
+}
 .vk {background: #5d84ae; color: #fff;}
 .whatsapp {background: #50b154; color: #fff;}
 .telegram {background: #249bd7;  color: #fff;}
