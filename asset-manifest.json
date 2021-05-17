@@ -1,8 +1,8 @@
 {
   "files": {
-    "main.css": "/atlant-hostel-app/static/css/main.d835c735.chunk.css",
-    "main.js": "/atlant-hostel-app/static/js/main.6f3cc3f4.chunk.js",
-    "main.js.map": "/atlant-hostel-app/static/js/main.6f3cc3f4.chunk.js.map",
+    "main.css": "/atlant-hostel-app/static/css/main.269f979a.chunk.css",
+    "main.js": "/atlant-hostel-app/static/js/main.1b1faaa9.chunk.js",
+    "main.js.map": "/atlant-hostel-app/static/js/main.1b1faaa9.chunk.js.map",
     "runtime-main.js": "/atlant-hostel-app/static/js/runtime-main.0b168d88.js",
     "runtime-main.js.map": "/atlant-hostel-app/static/js/runtime-main.0b168d88.js.map",
     "static/css/2.5b16853f.chunk.css": "/atlant-hostel-app/static/css/2.5b16853f.chunk.css",
@@ -12,7 +12,7 @@
     "static/js/3.656d350d.chunk.js.map": "/atlant-hostel-app/static/js/3.656d350d.chunk.js.map",
     "index.html": "/atlant-hostel-app/index.html",
     "static/css/2.5b16853f.chunk.css.map": "/atlant-hostel-app/static/css/2.5b16853f.chunk.css.map",
-    "static/css/main.d835c735.chunk.css.map": "/atlant-hostel-app/static/css/main.d835c735.chunk.css.map",
+    "static/css/main.269f979a.chunk.css.map": "/atlant-hostel-app/static/css/main.269f979a.chunk.css.map",
     "static/js/2.60aa19f1.chunk.js.LICENSE.txt": "/atlant-hostel-app/static/js/2.60aa19f1.chunk.js.LICENSE.txt",
     "static/media/1234.2533f618.jpg": "/atlant-hostel-app/static/media/1234.2533f618.jpg",
     "static/media/1234_1.f927ad2c.jpg": "/atlant-hostel-app/static/media/1234_1.f927ad2c.jpg",
@@ -22,7 +22,7 @@
     "static/media/9.d8beba47.jpg": "/atlant-hostel-app/static/media/9.d8beba47.jpg",
     "static/media/9.e05cb832.jpg": "/atlant-hostel-app/static/media/9.e05cb832.jpg",
     "static/media/9_1.b5d3bcef.jpg": "/atlant-hostel-app/static/media/9_1.b5d3bcef.jpg",
-    "static/media/atlant.f79e90aa.png": "/atlant-hostel-app/static/media/atlant.f79e90aa.png",
+    "static/media/atlant.81065e84.png": "/atlant-hostel-app/static/media/atlant.81065e84.png",
     "static/media/burger_menu.976b5194.png": "/atlant-hostel-app/static/media/burger_menu.976b5194.png",
     "static/media/hole.00cf98db.jpg": "/atlant-hostel-app/static/media/hole.00cf98db.jpg",
     "static/media/login_icon.896173e4.png": "/atlant-hostel-app/static/media/login_icon.896173e4.png",
@@ -32,7 +32,7 @@
     "static/js/runtime-main.0b168d88.js",
     "static/css/2.5b16853f.chunk.css",
     "static/js/2.60aa19f1.chunk.js",
-    "static/css/main.d835c735.chunk.css",
-    "static/js/main.6f3cc3f4.chunk.js"
+    "static/css/main.269f979a.chunk.css",
+    "static/js/main.1b1faaa9.chunk.js"
   ]
 }
