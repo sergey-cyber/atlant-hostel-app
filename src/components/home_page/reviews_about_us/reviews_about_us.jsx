@@ -10,16 +10,12 @@ const ReviewsAboutUs = (props) => {
         props.setReviewsForm(true)
     }
 
-    useEffect(() => {
-        console.log('reviews onload')
-    }, [])
-
     const onChangePaginator = (currentPart, partSize) => {
         //Отправляем запрос за частью отзывов при нажатии на пагинатор(текущая страница и размер страницы приходит автоматом из пагинатора)
         props.getReviewsPart(currentPart, partSize)
             //Отключить прелоадер когда отзывы пришли
             .then(() => props.setPreloader(false));
-        props.setPreloader(true);
+        props.setPreloader(true);     
     }
     
     return (
@@ -53,8 +49,8 @@ const ReviewsAboutUs = (props) => {
                 
             </div>
             <div className={style.reviewsPaginator} >
-                <Pagination total={props.totalReviewsCount} defaultCurrent={1}
-                    pageSize={props.revPartSize} showSizeChanger={false} onChange={onChangePaginator} />
+                { props.totalReviewsCount && <Pagination total={props.totalReviewsCount} defaultCurrent={1}
+                    pageSize={props.revPartSize} showSizeChanger={false} onChange={onChangePaginator} /> }
             </div>
             <button 
                 className={style.addReviewBtn} 
