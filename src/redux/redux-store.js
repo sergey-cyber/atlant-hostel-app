@@ -4,10 +4,12 @@ import { reducer as formReducer } from 'redux-form' */
 import hostelDataReduser from "./hostel-data-reducer";
 import reviewsDataReduser from "./reviews-data-reducer";
 import { reducer as formReducer } from 'redux-form'
+import localizationReduser from "./localizations-reduser";
 
 let redusers = combineReducers({
     hostelData: hostelDataReduser,
     reviewsData: reviewsDataReduser,
+    localizationData: localizationReduser,
     form: formReducer    //redux-form Lesson 75
 });
 

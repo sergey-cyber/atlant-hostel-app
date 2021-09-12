@@ -1,0 +1,43 @@
+@use "sass:map";
+
+$themes: (
+   light: (
+       //Global
+        global_background_color: #E9EAEE,
+        global_font_color: #2C3C2A,
+        button_background_color: #51A1A8,
+        //Header
+        theme_switcher_background_color: rgb(37, 118, 172)
+   ),
+   dark: (
+       //Global
+        global_background_color: #4D556A,
+        global_font_color: #D6D6D6,
+        button_background_color: #201F24,
+        //Header
+        theme_switcher_background_color: rgb(183, 255, 255)
+   ),
+ );
+ 
+ @mixin themify($themes) {
+   @each $theme, $map in $themes {
+     :global(.theme-#{$theme}) & {
+       $theme-map: () !global;
+       @each $key, $submap in $map {
+         $value: map-get(map-get($themes, $theme), '#{$key}');
+         $theme-map: map-merge(
+             $theme-map, 
+               (
+                 $key: $value
+               )
+           ) !global;
+       }
+       @content;
+       $theme-map: null !global;
+     }
+   }
+ }
+ 
+ @function themed($key) {
+   @return map-get($theme-map, $key);
+ }

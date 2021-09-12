@@ -1,0 +1,26 @@
+@use "../../../../styles/themify.scss" as *;
+
+.themeSwitcher{
+    padding-right: 10px;
+    button{
+        @include themify($themes) {  
+            background-color: themed('theme_switcher_background_color');  
+        }
+        height: 30px;
+        div{
+            display: none;
+        }
+        span{
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            height: 100%;
+            img{
+                height: 80%;
+                width: auto;
+                padding-left: 0;
+                /* padding-right: 5px; */
+            }
+        }
+    }
+}

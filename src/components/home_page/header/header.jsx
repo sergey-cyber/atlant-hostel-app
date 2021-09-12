@@ -6,6 +6,7 @@ import style from './header.module.scss';
 import burgerMenuImg from './images/burger_menu.png';
 import loginImg from './images/login_icon.png';
 import {Link} from 'react-scroll';
+import { ThemeSwitcher } from './theme_switcher/theme_switcher';
 
 const Header = () => {
 
@@ -31,6 +32,7 @@ const Header = () => {
                 spy={true} smooth={true} duration={500} >Наши контакты</Link>            
         </nav>
         <div className={style.loginBlock}>
+            <ThemeSwitcher />
             <NavLink to='/login'>Вход/Регистрация</NavLink>
             <img alt='' src={loginImg} />
         </div>
