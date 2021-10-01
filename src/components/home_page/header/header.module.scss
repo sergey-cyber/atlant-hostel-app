@@ -1,8 +1,12 @@
+@use "../../../styles/themify.scss" as *;
 
 .header{
     width: 100%;
     height: 50px;
-    background-color: rgba(255, 255, 255, 0.8);
+    @include themify($themes) {
+        background-color: themed("header_background_color");
+        color: themed("header_font_color");
+    }
     display: flex;
     justify-content: space-between;
     align-items: center;
@@ -10,6 +14,7 @@
     top: 0;
     left: 0;
     z-index: 15;
+    transition:  .3s;
 }
 
 .burgerMenu{
@@ -22,27 +27,32 @@
     padding: 0 0 0 20px;
 }
 
-.burgerMenu img{
-    width: 100%;
-    height: auto;
+.burgerMenuIcon{
+    font-size: 2em;
 }
 
 .loginBlock{
     display: flex;
     align-items: center;
     padding: 0 20px 0 0;
+    a{
+        @include themify($themes) {
+            color: themed("login_font_color");
+        }
+    }
 }
 
-.loginBlock img{
+.loginIcon{
     padding-left: 5px;
-    width: 20px;
-    height: auto;
+    font-size: 2em;
 }
 
 .headerLabel{
     font-family: 'Rockwell Condensed';
     font-size: 20px;
     padding-left: 20px;
+    width: 15%;
+    text-align: start;
 }
 
 /*Header nav*/
@@ -55,10 +65,13 @@
 .headerNavItem{
     padding: 10px;
     transition: .3s;
-    color: #000;
-    &:hover{
-        background-color: #000;
-        color: #fff;
+    @include themify($themes) {
+        background-color: themed("header_background_color");
+        color: themed("header_font_color");
+        &:hover{
+            background-color: themed("header_nav_background_hover");
+        color: themed("header_nav_font_color_hover");
+        }
     }
 }
 

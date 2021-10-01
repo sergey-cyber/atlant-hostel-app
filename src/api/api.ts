@@ -1,33 +1,46 @@
-import * as axios from "axios";
+import axios from "axios";
+import { UserData } from "../custom_types/api_types";
 
-const instance = axios.create({ 
-    /* withCredentials: true, */
-    baseURL: /* 'http://localhost:5000/api/'  */ 'https://limitless-island-50835.herokuapp.com/api/',
-    headers: {
-        /* "Access-Control-Allow-Origin": "*" */
-    }    
+const instance = axios.create({
+  /* withCredentials: true, */
+  baseURL: "http://localhost:5000/api/" /* 'https://limitless-island-50835.herokuapp.com/api/' */,
+  headers: {
+    /* "Access-Control-Allow-Origin": "*" */
+  },
 });
 
+export const authAPI = {
+  registration(email: string, password: string, userData: UserData) {
+    return instance.post("auth/register", { email, password, userData }).then((response) => {
+      return response.data;
+    });
+  },
+  login(email: string, password: string) {
+    return instance.post("auth/login", { email, password }).then((response) => {
+      return response.data;
+    });
+  },
+};
+
 export const hostelDataAPI = {
-    getBedsData () {
-        return instance.get('hostelData/bedsData') //Базовый урл сам добавляется
-    },
-    setBookingDatesForBed (placeNumber, dateRange) {
-        return instance.patch('hostelData/bedsData/setBookingDateForBed', {placeNumber, dateRange}) //Базовый урл сам добавляется
-    }
-}
+  getBedsData() {
+    return instance.get("hostelData/bedsData");
+  },
+  setBookingDatesForBed(placeNumber: any, dateRange: any) {
+    return instance.patch("hostelData/bedsData/setBookingDateForBed", { placeNumber, dateRange });
+  },
+};
 
 export const homePageDataAPI = {
-    getReviewsPart (currentRevPart = 1, revPartSize = 5) {
-        return instance.get(`home?currentRevPart=${currentRevPart}&revPartSize=${revPartSize}`) 
-            .then((response) => response.data)
-    },
-    postNewReview (reviewFormData) {
-        return instance.post('home/', {reviewFormData}) 
-            .then((response) => response.data)
-    }
-}
-
+  getReviewsPart(currentRevPart = 1, revPartSize = 5) {
+    return instance
+      .get(`home?currentRevPart=${currentRevPart}&revPartSize=${revPartSize}`)
+      .then((response: any) => response.data);
+  },
+  postNewReview(reviewFormData: any) {
+    return instance.post("home/", { reviewFormData }).then((response: any) => response.data);
+  },
+};
 
 /* export const usersAPI = {
     setUsers (currentPage = 1, pageSize = 100) {  //присвоение 1 и 10 к параметрам функции - это параметры по умолчанию если в функцию ниего не прийдет
@@ -86,4 +99,3 @@ export const authAPI = {
         return instance.delete('auth/login');
     }
 } */
-

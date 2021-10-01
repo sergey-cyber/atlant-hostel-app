@@ -1,21 +1,28 @@
 @use "sass:map";
+@use "./themes/dark.scss" as Dark;
+@use "./themes/light.scss" as Light;
 
 $themes: (
    light: (
-       //Global
-        global_background_color: #E9EAEE,
-        global_font_color: #2C3C2A,
-        button_background_color: #51A1A8,
         //Header
-        theme_switcher_background_color: rgb(37, 118, 172)
+        theme_switcher_background_color: rgb(37, 118, 172),
+        header_background_color: Light.$main_background_color,
+        header_font_color: Light.$main_font_color,
+        header_nav_background_hover: Dark.$main_background_color,
+        header_nav_font_color_hover: Light.$main_font_color,
+        login_font_color: Light.$main_font_color,
+        //Home Page
+        home_page_background_color: Light.$main_background_color
    ),
    dark: (
-       //Global
-        global_background_color: #4D556A,
-        global_font_color: #D6D6D6,
-        button_background_color: #201F24,
         //Header
-        theme_switcher_background_color: rgb(183, 255, 255)
+        theme_switcher_background_color: rgb(183, 255, 255),
+        header_background_color: #201F24,
+        header_font_color: rgba(255, 255, 255, 0.8),
+        header_nav_background_hover: Light.$main_background_color,
+        header_nav_font_color_hover: Dark.$main_font_color,
+        login_font_color: rgb(183, 255, 255),
+        home_page_background_color: Dark.$main_background_color
    ),
  );
  
